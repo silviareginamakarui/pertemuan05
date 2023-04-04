@@ -44,6 +44,26 @@ function Card() {
                                 name="Alamat"
                                 id="naam"
                             />
+                            <label
+                                class="mb-2 font-bold text-lg text-gray-900"
+                                for="Agama"
+                            >
+                                Agama
+                            </label>
+                            <input
+                                class="border py-2 px-3 text-grey-800"
+                                type="text"
+                                name="agama"
+                                id="agama"
+                            />
+                            <select>
+                            <option value="Protestan">Kristen Protestan</option>
+                            <option value="Katolik">Katolik</option>
+                            <option value="Islam">Islam</option>
+                            <option value="Hindu">Hindu</option>
+                            <option value="Budha">Budha</option>
+                            <option value="Kepercayaan">Aliran Kepercayaan</option>
+                        </select>
                         </div>
                         <button
                         class="block bg-orange-400 hover:bg-orange-600 text-white uppercase text-lg mx-auto p-4 rounded"
